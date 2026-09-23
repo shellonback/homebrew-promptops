@@ -5,29 +5,33 @@
 ## Install
 
 ```sh
-brew install --cask shellonback/promptops/promptops
+brew install shellonback/promptops/promptops
 ```
 
 or
 
 ```sh
 brew tap shellonback/promptops
-brew install --cask promptops
+brew install promptops
 ```
+
+## What this repository is
+
+Only the Homebrew packaging: a cask recipe that points to the signed, notarized DMGs published on [promptops-releases](https://github.com/shellonback/promptops-releases/releases) and verifies their checksums. PromptOps Desktop itself is proprietary software by Shellonback S.r.l., distributed under its [EULA](https://promptops.it/legal/eula); its source code is not part of this repository. The MIT license below covers the packaging files only.
 
 ## Update
 
 The app updates itself. To update through Homebrew instead:
 
 ```sh
-brew upgrade --cask promptops
+brew upgrade promptops
 ```
 
 ## Uninstall
 
 ```sh
-brew uninstall --cask promptops        # removes the app
-brew uninstall --cask --zap promptops  # also removes settings, caches and logs
+brew uninstall promptops        # removes the app
+brew uninstall --zap promptops  # also removes settings, caches and logs
 ```
 
 ## Requirements
