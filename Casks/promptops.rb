@@ -1,9 +1,9 @@
 cask "promptops" do
   arch arm: "arm64", intel: "x64"
 
-  version "2.0.33"
-  sha256 arm:   "0b957d8a97bf8de0e0f44ef9967f5fb6d01bd6c47ee464267508c3dffca87f12",
-         intel: "d2594f13c0d489987be08fc06c3bbb6b912df78fc75e2c7e92e34de2d90292f7"
+  version "2.1.7"
+  sha256 arm:   "cf5ab0948092c4a5d5c4620ccc15fcb6c0a38807b850acdfdc8ba80768caa48b",
+         intel: "786721527ed7709fbbc0919a01a1c7efeb63c1a6429d202247de511ed24d732d"
 
   url "https://github.com/shellonback/promptops/releases/download/v#{version}/PromptOps-Desktop-#{version}-#{arch}.dmg"
   name "PromptOps Desktop"
