@@ -5,7 +5,7 @@ cask "promptops" do
   sha256 arm:   "0b957d8a97bf8de0e0f44ef9967f5fb6d01bd6c47ee464267508c3dffca87f12",
          intel: "d2594f13c0d489987be08fc06c3bbb6b912df78fc75e2c7e92e34de2d90292f7"
 
-  url "https://github.com/shellonback/promptops-releases/releases/download/v#{version}/PromptOps-Desktop-#{version}-#{arch}.dmg"
+  url "https://github.com/shellonback/promptops/releases/download/v#{version}/PromptOps-Desktop-#{version}-#{arch}.dmg"
   name "PromptOps Desktop"
   desc "Desktop control plane for AI coding agents such as Claude Code and Codex"
   homepage "https://promptops.it/"
